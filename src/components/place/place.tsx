@@ -9,11 +9,6 @@ import {
 } from "react-native";
 import { fontFamily, colors } from "@/styles/theme";
 
-import { api } from "@/services/api";
-import { useEffect, useState } from "react";
-import Categories, {
-  CategoriesProps,
-} from "@/components/categories/categories";
 import { Ionicons } from "@expo/vector-icons";
 
 type Props = TouchableOpacityProps & {
